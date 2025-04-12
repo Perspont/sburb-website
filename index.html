@@ -2,7 +2,7 @@
 <html lang="pt-BR" dir="ltr">
  <head>
 
-    <link rel="stylesheet" type="text/css" href="style/estilo.css">
+    <link rel="stylesheet" type="text/css" href="style/estilo.css" media="all">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <meta charset="utf-8">
     <script src="scripts/script.js" defer></script>
@@ -17,13 +17,37 @@
         <a class="link-cabecalho" href="#">Suporte</a>
     </header>
     <main>
-        <video autoplay loop disablepictureinpicture muted>
-            <source src="images/sburb-header.mp4" type="video/mp4">
+        <!--Seção de ínicio (vídeo com "Jogue agora!")-->
+        <section class="video-inicial">
 
-        </video>
-        <p class="texto-principal-inicio">Bem Vindo à SKAIA</p>
+            <video autoplay loop disablepictureinpicture muted>
+                <source src="images/sburb-header.mp4" type="video/mp4">
+            </video>
+            <img src="images/sburb-logo.png" alt="Logo de SBURB">
+            <h2>Salve o futuro de sua espécie</h2>
+        </section>
+        <!--Seção que fala sobre Skaia-->
+        <section class="informacoes-skaia">
+            <h1 class="texto-principal-inicio">Bem vindo à</h1>
+            <h1 class="texto-principal-inicio" id="skaia">SKAIA</h1>
         <section class="imagem-inicial">
             <image src="images/skaia-risen.png" alt="A atmosfera de Skaia">
+        </section>
+        <p>“Acima do Meio, além dos Sete Portões, residindo no núcleo da Incipisfera há um lugar chamado Skaia”</p>
+        <p>Skaia é o centro de seu mundo. Uma esfera de puro azul que será essencial à sua jornada. Os nobres de Prospit tem acesso vitalício à seu conhecimento infinito. 
+            É Skaia que salva o <span class="bold">CAMPO DE BATALHA</span> da sua sessão, e redireciona o perigo para o planeta de origem de você e seus co-jogadores.</p>
+        <p>Se você está aqui, você já deve saber que a destruição de seu lar é inevitável.</p>
+        </section>
+        <!--Seção que fala sobre o battlefield-->
+        <section class="informacoes-battlefield">
+            <p>O Campo de Batalha é um planeta no centro de Skaia, onde, no final de sua jornada, aguarda o seu maior desafio.</p>
+            <div class="imagens-battlefield">
+
+                <img src="images/battlefield-0.png" alt="Campo de batalha no seu primeiro estágio. É uma mesa de xadrez com apenas 9 casas. Ela possui um rei e uma rainha">
+                <img src="images/battlefield-1.png" alt="">
+                <img src="images/battlefield-2.png" alt="">
+                <img src="images/battlefield-3.png" alt="">
+            </div>
 
         </section>
     </main>

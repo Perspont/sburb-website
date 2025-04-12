@@ -9,7 +9,7 @@
     padding:0px;
     overflow-x: hidden;
     font-family: 'Courier New', Courier, monospace;
-    position:relative;
+    box-sizing: border-box;
 }
 
 header{
@@ -29,6 +29,16 @@ header{
 .texto-principal-inicio{
     left:5rem;
     bottom:0;
+    font-size: 2rem;
+}
+
+#skaia{
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+.bold{
+    font-weight: bold;
 }
 
 body{
