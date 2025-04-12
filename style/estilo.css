@@ -1,0 +1,22 @@
+*{
+    margin: 0rem;
+    padding:0rem;
+    overflow-x: hidden;
+}
+
+header{
+    display: flex;
+    background-color: rgb(255, 0, 0);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-cabecalho{
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+body{
+    background-image: url("../images/game-bro-vintage.png");
+    background-size:cover;
+}
